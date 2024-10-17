@@ -1,11 +1,14 @@
+
 import React from 'react';
+import Counter from './components/Counter';
+import './index.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to My React App!</h1>
-        <p>Deployed with AWS Amplify</p>
+        <h1>Welcome to My Modern React App!</h1>
+        <Counter />
       </header>
     </div>
   );
